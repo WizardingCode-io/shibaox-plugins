@@ -1,0 +1,17 @@
+{
+  "name": "shibaox-plugins",
+  "interface": { "displayName": "shibaox" },
+  "plugins": [
+    {
+      "name": "shibaox-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/WizardingCode-io/shibaox-mem.git",
+        "path": "./plugins/codex",
+        "ref": "v0.2.0"
+      },
+      "policy": { "installation": "AVAILABLE" },
+      "category": "Productivity"
+    }
+  ]
+}
