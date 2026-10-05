@@ -1,0 +1,22 @@
+{
+  "name": "shibaox-plugins",
+  "owner": { "name": "WizardingCode", "url": "https://wizardingcode.io" },
+  "metadata": {
+    "description": "Tools for coding agents from the shibaox family: memory, and more to come.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shibaox-mem",
+      "description": "Persistent memory across sessions: what each session learns, the next one is told. One local binary, no daemon, no LLM in the loop.",
+      "version": "0.1.0",
+      "author": { "name": "WizardingCode", "url": "https://wizardingcode.io" },
+      "homepage": "https://github.com/WizardingCode-io/shibaox-mem",
+      "repository": "https://github.com/WizardingCode-io/shibaox-mem",
+      "license": "Apache-2.0",
+      "keywords": ["memory", "context", "shibaox"],
+      "category": "productivity",
+      "source": { "source": "github", "repo": "WizardingCode-io/shibaox-mem", "ref": "v0.1.0" }
+    }
+  ]
+}
