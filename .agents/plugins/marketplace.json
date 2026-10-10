@@ -1,14 +1,14 @@
 {
-  "name": "shibaox-plugins",
-  "interface": { "displayName": "shibaox" },
+  "name": "wizardingcode-plugins",
+  "interface": { "displayName": "WizardingCode" },
   "plugins": [
     {
-      "name": "shibaox-mem",
+      "name": "wizardingcode-mem",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/WizardingCode-io/shibaox-mem.git",
+        "url": "https://github.com/WizardingCode-io/wizardingcode-mem.git",
         "path": "./plugins/codex",
-        "ref": "v0.3.0"
+        "ref": "v0.4.0"
       },
       "policy": { "installation": "AVAILABLE" },
       "category": "Productivity"
